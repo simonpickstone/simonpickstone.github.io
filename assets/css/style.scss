@@ -46,6 +46,18 @@ section p {
   margin-bottom: 10px;
 }
 
+/* Keep homepage image and text aligned to image width */
+section .home-content {
+  width: 480px;
+  max-width: 100%;
+}
+
+section .home-content img {
+  width: 480px;
+  max-width: 100%;
+  height: auto;
+}
+
 /* Phone */
 @media screen and (max-width: 720px) {
   .wrapper {
