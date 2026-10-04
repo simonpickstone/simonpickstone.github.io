@@ -23,30 +23,23 @@ header {
   margin-bottom: 10px;
 }
 
-/* Image + the paragraph that contains it */
-section p:has(img) {
-  margin-top: 0;
-  margin-bottom: 5px;
+.intro {
+  width: 480px;
+  max-width: 100%;
 }
 
-section p:has(img) img {
-  display: block;
+.intro img {
+  width: 480px;
   max-width: 100%;
   height: auto;
-  margin: 0;
 }
 
-/* Body copy */
-section p {
-  margin-top: 5px;
-  margin-bottom: 10px;
-}
-
-/* Phone */
 @media screen and (max-width: 720px) {
-  .wrapper {
-    padding: 0 20px;
+  .intro {
+    width: 100%;
   }
+}
+
   
 /* Keep the text column the same width as the image */
 section p:not(:has(img)) {
