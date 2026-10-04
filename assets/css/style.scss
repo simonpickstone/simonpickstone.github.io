@@ -16,19 +16,29 @@ img {
   height: auto;
 }
 
-/* Reduce vertical spacing */
+/* Header spacing */
 header {
   margin-bottom: 10px;
 }
 
-section img {
-  margin-top: 0;
-  margin-bottom: 8px;
-}
-
+/* General paragraph spacing */
 section p {
   margin-top: 8px;
   margin-bottom: 12px;
+}
+
+/* Images inside Markdown paragraphs */
+section p img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+/* Paragraph containing an image */
+section p:has(img) {
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 /* Phone */
