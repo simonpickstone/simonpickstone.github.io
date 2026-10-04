@@ -1,6 +1,4 @@
-<div class="home-content">
 <img src="images/hello.png" alt="hello">
-
 
 I'm a freelance environmental journalist based in Heidelberg, Germany.
 
