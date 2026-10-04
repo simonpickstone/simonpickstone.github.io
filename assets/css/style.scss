@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-/* Page margins */
+/* Overall page margins */
 .wrapper {
   max-width: 1100px;
   margin: 0 auto;
@@ -16,29 +16,28 @@ img {
   height: auto;
 }
 
-/* Header spacing */
+/* Reduce gap below the header */
 header {
   margin-bottom: 10px;
 }
 
-/* General paragraph spacing */
-section p {
-  margin-top: 8px;
-  margin-bottom: 12px;
+/* Image + the paragraph that contains it */
+section p:has(img) {
+  margin-top: 0;
+  margin-bottom: 5px;
 }
 
-/* Images inside Markdown paragraphs */
-section p img {
+section p:has(img) img {
   display: block;
   max-width: 100%;
   height: auto;
   margin: 0;
 }
 
-/* Paragraph containing an image */
-section p:has(img) {
-  margin-top: 0 !important;
-  margin-bottom: 10px !important;
+/* Body copy */
+section p {
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 /* Phone */
