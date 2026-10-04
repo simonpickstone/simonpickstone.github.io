@@ -6,4 +6,4 @@ I like to write about industrial emissions, pesticides, the EU REACH Regulation,
 
 If you'd like to get in touch, please email me [here](mailto:simon.pickstone@proton.me).
 
-You can find my recent articles [here]([url](https://www.endseurope.com/search/articles?keywords=%22simon.pickstone%22&headlinesOnly=False)).
+You can find my recent articles [here](https://www.endseurope.com/search/articles?keywords=%22simon.pickstone%22&headlinesOnly=False).
