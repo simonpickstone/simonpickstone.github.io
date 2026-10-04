@@ -47,7 +47,8 @@ section p {
   .wrapper {
     padding: 0 20px;
   }
-
-section {
+  
+/* Keep the text column the same width as the image */
+section p:not(:has(img)) {
   max-width: 480px;
 }
