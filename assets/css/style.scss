@@ -3,44 +3,22 @@
 
 @import "{{ site.theme }}";
 
-/* Overall page width and margins */
+/* Page margins */
 .wrapper {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 40px;
 }
 
-/* Make images responsive */
+/* Responsive images */
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* Keep header and main content comfortably spaced */
-header {
-  padding-right: 30px;
-}
-
-section {
-  padding-left: 30px;
-}
-
-/* Phone / small screens */
+/* Smaller screens */
 @media screen and (max-width: 720px) {
   .wrapper {
     padding: 0 20px;
-  }
-
-  header {
-    padding-right: 0;
-  }
-
-  section {
-    padding-left: 0;
-  }
-
-  img {
-    max-width: 100%;
-    height: auto;
   }
 }
