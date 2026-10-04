@@ -1,8 +1,3 @@
----
----
-
-@import "{{ site.theme }}";
-
 /* Overall page margins */
 .wrapper {
   max-width: 1200px;
@@ -10,11 +5,10 @@
   padding: 0 40px;
 }
 
-/*body fon*/
+/* Body font */
 body {
   font-size: 15px;
 }
-
 
 /* Responsive images */
 img {
@@ -27,40 +21,37 @@ header {
   margin-bottom: 10px;
 }
 
-/* Image + the paragraph that contains it */
-section p:has(img) {
-  margin-top: 0;
-  margin-bottom: 5px;
+/* Homepage image + text */
+.home-content {
+  width: 480px;
+  max-width: 100%;
 }
 
-section p:has(img) img {
+.home-content img {
   display: block;
+  width: 480px;
   max-width: 100%;
   height: auto;
-  margin: 0;
+  margin: 0 0 5px 0;
 }
 
 /* Body copy */
-section p {
+.home-content p {
   margin-top: 5px;
   margin-bottom: 10px;
-}
-
-/* Keep homepage image and text aligned to image width */
-section .home-content {
-  width: 480px;
-  max-width: 100%;
-}
-
-section .home-content img {
-  width: 480px;
-  max-width: 100%;
-  height: auto;
 }
 
 /* Phone */
 @media screen and (max-width: 720px) {
   .wrapper {
     padding: 0 20px;
+  }
+
+  .home-content {
+    width: 100%;
+  }
+
+  .home-content img {
+    width: 100%;
   }
 }
