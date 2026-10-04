@@ -47,4 +47,12 @@ section p {
   .wrapper {
     padding: 0 20px;
   }
+
+  section {
+    max-width: 100%;
+  }
+}
+
+section {
+  max-width: 480px;
 }
