@@ -1,5 +1,12 @@
 @import "fonts";
 @import "rouge-github";
+@import "{{ site.theme }}";
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
 
 body {
   background-color: #fff;
