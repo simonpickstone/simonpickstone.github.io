@@ -16,7 +16,22 @@ img {
   height: auto;
 }
 
-/* Smaller screens */
+/* Reduce vertical spacing */
+header {
+  margin-bottom: 10px;
+}
+
+section img {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+section p {
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+/* Phone */
 @media screen and (max-width: 720px) {
   .wrapper {
     padding: 0 20px;
