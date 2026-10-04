@@ -38,7 +38,7 @@ section p img {
 /* Paragraph containing an image */
 section p:has(img) {
   margin-top: 0 !important;
-  margin-bottom: 10px; !important
+  margin-bottom: 10px !important;
 }
 
 /* Phone */
