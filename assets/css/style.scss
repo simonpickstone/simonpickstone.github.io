@@ -37,8 +37,8 @@ section p img {
 
 /* Paragraph containing an image */
 section p:has(img) {
-  margin-top: 0;
-  margin-bottom: 10px;
+  margin-top: 0 !important;
+  margin-bottom: 10px; !important
 }
 
 /* Phone */
@@ -46,9 +46,4 @@ section p:has(img) {
   .wrapper {
     padding: 0 20px;
   }
-}
-
-/* test */
-section {
-  background: #fffde7 !important;
 }
