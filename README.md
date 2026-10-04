@@ -1,4 +1,4 @@
-<!-- <div class="home-content"> —->
+<!-- <div class="home-content"> -->
 <img src="images/hello.png" alt="hello">
 
 
