@@ -1,3 +1,8 @@
+---
+layout: default
+image: /images/simon_pickstone.jpg
+---
+
 ![hello](/images/hello.png)
 
 I'm a freelance environmental journalist based in Heidelberg, Germany.
