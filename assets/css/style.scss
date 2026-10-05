@@ -66,3 +66,13 @@ body, h1, h2, h3, h4, h5, h6, p {
 header, section, footer {
   border: none !important;
 }
+
+/* Clickable link colors */
+a {
+  color: #0056b3 !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #97ba63 !important;
+}
