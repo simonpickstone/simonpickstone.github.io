@@ -48,8 +48,15 @@ section p:not(:has(img)) {
   max-width: 480px;
 }
 
-/* Disable the theme's two-column desktop layout */
-header, section {
+/* Disable the theme's two-column and fixed header layout */
+header {
+  float: none !important;
+  width: 100% !important;
+  position: relative !important;
+  margin-bottom: 30px !important;
+}
+
+section {
   float: none !important;
   width: 100% !important;
 }
