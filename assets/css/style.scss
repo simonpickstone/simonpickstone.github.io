@@ -1,28 +1,31 @@
+---
+---
 @import "{{ site.theme }}";
 
-/* Overall page margins 
+/* Overall page margins */
 .wrapper {
-  max-width: 1200px;
+  max-width: 480px;
   margin: 0 auto;
-  padding: 10px 40px;
+  padding: 20px 20px;
 }
 
-/* Body font 
+/* Body font */
 body {
   font-size: 15px;
 }
 
-/* Responsive images 
+/* Responsive images */
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* Reduce gap below the header 
+/* Reduce gap below the header */
 header {
   margin-bottom: 10px;
 }
 
+/* Image alignment rules */
 .intro {
   width: 480px;
   max-width: 100%;
@@ -39,9 +42,8 @@ header {
     width: 100%;
   }
 }
-
   
-/* Keep the text column the same width as the image 
+/* Keep the text column the same width as the image */
 section p:not(:has(img)) {
   max-width: 480px;
 }
