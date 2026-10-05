@@ -47,3 +47,9 @@ header {
 section p:not(:has(img)) {
   max-width: 480px;
 }
+
+/* Disable the theme's two-column desktop layout */
+header, section {
+  float: none !important;
+  width: 100% !important;
+}
