@@ -48,8 +48,17 @@ header {
   float: none !important;
   width: 100% !important;
   position: relative !important;
-  margin-bottom: 30px !important;
+  margin-bottom: 15px !important;
 }
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+header img {
+  margin-bottom: 5px;
+}
+
 
 section {
   float: none !important;
