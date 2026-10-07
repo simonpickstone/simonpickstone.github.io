@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Simon Pickstone
-image: /images/simon_pickstone.jpeg
+image: https://simonpickstone.github.io/images/simon_pickstone.jpeg
 ---
 
 
