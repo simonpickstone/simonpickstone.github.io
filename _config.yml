@@ -6,3 +6,4 @@ url: "https://simonpickstone.github.io"
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
