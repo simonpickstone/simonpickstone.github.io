@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 title: Simon Pickstone
-image: /images/simon_pickstone.jpg
+image: /images/simon_pickstone.jpeg
 url: "https://simonpickstone.github.io"
 plugins:
   - jekyll-seo-tag
