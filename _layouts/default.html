@@ -5,38 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-{% seo %}
+    <title>Simon Pickstone</title>
+
+    <meta name="description" content="Freelance environmental journalist based in Heidelberg, Germany.">
+
+    <link rel="canonical" href="{{ site.url }}/">
+
+    <!-- Open Graph / Facebook / LinkedIn / WhatsApp -->
+    <meta property="og:title" content="Simon Pickstone">
+    <meta property="og:description" content="Freelance environmental journalist based in Heidelberg, Germany.">
+    <meta property="og:url" content="{{ site.url }}/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Simon Pickstone">
     <meta property="og:image" content="{{ site.url }}/images/simon_pickstone.jpeg">
+    <meta property="og:image:alt" content="Simon Pickstone">
+
+    <!-- Twitter / Bluesky and other platforms -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Simon Pickstone">
+    <meta name="twitter:description" content="Freelance environmental journalist based in Heidelberg, Germany.">
     <meta name="twitter:image" content="{{ site.url }}/images/simon_pickstone.jpeg">
+    <meta name="twitter:image:alt" content="Simon Pickstone">
+
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
+
     {% include head-custom.html %}
   </head>
+
   <body>
     <div class="wrapper">
       <header>
         <h1>Simon Pickstone</h1>
 
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
+          <img src="{{ site.logo | relative_url }}" alt="Logo" />
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-    
-
       </header>
+
       <section>
-
-      {{ content }}
-
+        {{ content }}
       </section>
+
       <footer>
-        
       </footer>
     </div>
+
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>
