@@ -1,3 +1,8 @@
+---
+layout: default
+title: Simon Pickstone
+image: /images/hello.png
+---
 
 
 ![hello](/images/hello.png)
