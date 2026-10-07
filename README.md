@@ -1,10 +1,3 @@
----
-layout: default
-title: Simon Pickstone
-image: https://simonpickstone.github.io/images/simon_pickstone.jpeg
----
-
-
 ![hello](/images/hello.png)
 
 I'm a freelance environmental journalist based in Heidelberg, Germany.
