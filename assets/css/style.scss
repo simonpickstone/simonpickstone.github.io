@@ -7,6 +7,16 @@ body, h1, h2, h3, h4, h5, h6, p {
   font-size: 15px;
 }
 
+/* Clickable link colors */
+a {
+  color: #97ba63 !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #97ba63 !important;
+}
+
 /* Overall page margins
 .wrapper {
   box-sizing: border-box;
@@ -67,16 +77,6 @@ body, h1, h2, h3, h4, h5, h6, p {
 /* Remove the thin grey border lines on mobile
 header, section, footer {
   border: none !important;
-}
-
-/* Clickable link colors
-a {
-  color: #97ba63 !important;
-  text-decoration: none !important;
-}
-
-a:hover {
-  color: #97ba63 !important;
 }
 
 /*section {
