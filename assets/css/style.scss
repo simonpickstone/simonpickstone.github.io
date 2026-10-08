@@ -8,6 +8,11 @@ box-sizing: border-box; }
 
 body { font-size: 15px; font-family: Helvetica, sans-serif !important; color: #000000 !important; }
 
+/* Remove the thin grey border lines on mobile */
+header, section, footer {
+  border: none !important;
+}
+
 /* ---------- Layout ---------- */
 
 .wrapper { width: 100%; max-width: 480px; margin: 0 auto; padding: 10px 20px; }
