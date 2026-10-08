@@ -10,14 +10,10 @@
 }
 
 /* Body font */
-body {
+body, h1, h2, h3, h4, h5, h6, p {
+  font-family: Helvetica, sans-serif !important;
+  color: #000000 !important;
   font-size: 15px;
-}
-
-/* Responsive images */
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 /* Image alignment rules */
@@ -46,13 +42,13 @@ header {
   margin-bottom: 15px !important;
 } */
 
-header h1 {
+/*header h1 {
   margin-bottom: 10px;
 }
 
 header img {
   margin-bottom: 5px;
-}
+} */
 
 
 section {
@@ -62,11 +58,11 @@ section {
   margin-bottom: 0 !important;
 }
 
-/* Use Helvetica font and black text */
+/* Use Helvetica font and black text 
 body, h1, h2, h3, h4, h5, h6, p {
   font-family: Helvetica, sans-serif !important;
   color: #000000 !important;
-}
+}*/
 
 /* Remove the thin grey border lines on mobile */
 header, section, footer {
@@ -83,7 +79,7 @@ a:hover {
   color: #97ba63 !important;
 }
 
-section {
+/*section {
   padding-bottom: 0 !important;
   margin-bottom: 0 !important;
 }
@@ -92,7 +88,7 @@ section p:last-child {
   margin-bottom: 10px !important;
 }
 
-/*footer {
+footer {
   padding: 0 !important;
   margin: 0 !important;
   min-height: 0 !important;
