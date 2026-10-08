@@ -8,4 +8,6 @@ I like to write about industrial emissions, pesticides, the REACH Regulation, an
 
 If you'd like to get in touch, please [email me](mailto:simon.pickstone@proton.me). You can also find me on [LinkedIn](https://www.linkedin.com/in/simon-pickstone-63a1599b) or [Bluesky](https://bsky.app/profile/simonpickstone.bsky.social).
 
-Take a look at my recent articles for [ENDS Europe](https://www.endseurope.com/search/articles?keywords=%22simon.pickstone%22&headlinesOnly=False) and [ENDS Report](https://www.endsreport.com/author/5134/simon-pickstone). If you like podcasts, you can listen to me talking about Brexit and the environment on the ECO Chamber [here](https://www.endsreport.com/article/1962689/brexit-10-years-on-uk-dirty-man-europe).
+Take a look at my recent articles for [ENDS Europe](https://www.endseurope.com/search/articles?keywords=%22simon.pickstone%22&headlinesOnly=False) and [ENDS Report](https://www.endsreport.com/author/5134/simon-pickstone).
+
+If you like podcasts, you can listen to me talking about Brexit and the environment on the ECO Chamber [here](https://www.endsreport.com/article/1962689/brexit-10-years-on-uk-dirty-man-europe).
