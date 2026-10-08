@@ -1,6 +1,6 @@
 @import "{{ site.theme }}";
 
-/* Overall page margins */
+/* Overall page margins
 .wrapper {
   box-sizing: border-box;
   width: 100%;
@@ -9,14 +9,14 @@
   padding: 10px 20px;
 }
 
-/* Body font */
+/* Body font
 body, h1, h2, h3, h4, h5, h6, p {
   font-family: Helvetica, sans-serif !important;
   color: #000000 !important;
   font-size: 15px;
 }
 
-/* Image alignment rules */
+/* Image alignment rules
 .intro {
   width: 480px;
   max-width: 100%;
@@ -48,7 +48,7 @@ header {
 
 header img {
   margin-bottom: 5px;
-} */
+}
 
 
 section {
@@ -64,12 +64,12 @@ body, h1, h2, h3, h4, h5, h6, p {
   color: #000000 !important;
 }*/
 
-/* Remove the thin grey border lines on mobile */
+/* Remove the thin grey border lines on mobile
 header, section, footer {
   border: none !important;
 }
 
-/* Clickable link colors */
+/* Clickable link colors
 a {
   color: #97ba63 !important;
   text-decoration: none !important;
