@@ -1,5 +1,12 @@
 @import "{{ site.theme }}";
 
+/*Body font*/
+body, h1, h2, h3, h4, h5, h6, p {
+  font-family: Helvetica, sans-serif !important;
+  color: #000000 !important;
+  font-size: 15px;
+}
+
 /* Overall page margins
 .wrapper {
   box-sizing: border-box;
@@ -7,13 +14,6 @@
   max-width: 480px;
   margin: 0 auto;
   padding: 10px 20px;
-}
-
-/* Body font
-body, h1, h2, h3, h4, h5, h6, p {
-  font-family: Helvetica, sans-serif !important;
-  color: #000000 !important;
-  font-size: 15px;
 }
 
 /* Image alignment rules
