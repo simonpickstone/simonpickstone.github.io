@@ -20,9 +20,17 @@ a:hover {
   color: #97ba63 !important;
 }
 
-/* Remove border lines on mobile */
+/* Remove border lines on mobile 
 header, section, footer {
   border: none !important;
+}*/
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+header img {
+  margin-bottom: 5px;
 }
 
 /* Overall page margins
