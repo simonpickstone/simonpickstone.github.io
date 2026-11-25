@@ -1,9 +1,13 @@
 ![hello](/images/hello.png)
 
-I'm an environmental consultant based in Heidelberg, Germany.
+I'm a freelance environmental journalist based in Heidelberg, Germany.
 
 For the past eight years, I have covered environmental policy in the UK and the EU for ENDS Europe and ENDS Report.
 
-I am interested in industrial emissions, pesticides, the REACH Regulation, and nature conservation and restoration. I'm a big fan of the EU's comitology register.
+I like to write about industrial emissions, pesticides, the REACH Regulation, and nature conservation and restoration. I'm a big fan of the EU's comitology register.
 
-If you'd like to get in touch, please [email me](mailto:simon.pickstone@protonmail.com).
+If you'd like to get in touch, please [email me](mailto:simon.pickstone@protonmail.com). You can also find me on [LinkedIn](https://www.linkedin.com/in/simon-pickstone-63a1599b) or [Bluesky](https://bsky.app/profile/simonpickstone.bsky.social).
+
+Take a look at my recent articles for [ENDS Europe](https://www.endseurope.com/author/5408/simon-pickstone) and [ENDS Report](https://www.endsreport.com/author/5134/simon-pickstone).
+
+If you like podcasts, you can listen to me talking about Brexit and the environment on the ECO Chamber [here](https://www.endsreport.com/article/1962689/brexit-10-years-on-uk-dirty-man-europe).
